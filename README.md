@@ -68,7 +68,7 @@ The current version of Pixora runs on CPU.
 # Pixora Installation
 **1. Clone the repository**:
 ```
-git clone https://github.com/kanaad-lims/pixora.git
+git clone https://github.com/kanaad-lims/Pixora.git
 cd pixora
 ```
 **2. (Optional) Create a virtual environment.**
