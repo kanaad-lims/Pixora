@@ -24,6 +24,8 @@ def recognition(img_path, db_path, confidence_threshold):
         
     return matched_images
 
+    ## The below code can be used for test inferencing using matplotlib and cv2.
+    
     # for idx, row in df.iloc[1:].iterrows():
     #     img_path = row['identity']
     #     img = cv2.imread(img_path)
@@ -37,6 +39,7 @@ def recognition(img_path, db_path, confidence_threshold):
     #     else:
     #         print("No Match Found OR Model less confident!")
 
+    #recognition(img_path="", db_path="", confidence_threshold=60)
 
 
         
