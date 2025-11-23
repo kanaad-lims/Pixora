@@ -1,9 +1,28 @@
 # Pixora
 
 <p align="center">
-  <img src="https://github.com/kanaad-lims/Pixora/blob/876f2ea4b5952911dcfafdb443c25692fa5665d4/pixora_logo.png" alt="Centered image" width="300">
-</p>
 
+  <!-- Library Badges -->
+  <img src="https://img.shields.io/badge/DeepFace-0.0.95-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/TensorFlow-2.20.0-orange?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flask-2.3.3-black?style=for-the-badge&logo=flask" />
+  <img src="https://img.shields.io/badge/OpenCV-4.9.0-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+
+  <!-- Repo Badges -->
+  <br>
+  <img src="https://img.shields.io/github/stars/kanaad-lims/Pixora?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/kanaad-lims/Pixora?style=for-the-badge" />
+
+  <!-- Logo -->
+  <br><br>
+  
+</p>
+<p align="center">
+<img src="https://github.com/kanaad-lims/Pixora/blob/876f2ea4b5952911dcfafdb443c25692fa5665d4/pixora_logo.png" 
+       alt="Pixora Logo" width="300">
+</p>
 
 # Overview
 Pixora is a lightweight, fast, and accurate face-recognition tool that lets you upload a folder of images and instantly match faces through a clean, browser-based interface.
