@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, render_template, send_from_directory
-from face import recognition
+from face import recognition #Importing face-recognition function written in face.py file.
 import os
 
 app = Flask(__name__)
@@ -16,7 +16,7 @@ def home():
     return render_template('modern.html')
 
 
-## Upload the folder of images.
+## Upload the folder of images which you want to query into.
 @app.route('/upload_db', methods=['POST'])
 def upload_db():
     files = request.files.getlist("files[]")
@@ -48,8 +48,8 @@ def recognize():
     file.save(query_path)
 
     try:
-        #Running inference
-        matched = recognition(img_path=query_path, db_path=DB_FOLDER, confidence_threshold=58)
+        #Running inference.
+        matched = recognition(img_path=query_path, db_path=DB_FOLDER, confidence_threshold=58) #control shifts to face.py file.
     
     except Exception as e:
         return jsonify({"error": str(e)}), 500
@@ -67,10 +67,11 @@ def recognize():
     return jsonify({"matched": web_paths})
 
 
-# Serving the images
+# Serving the images.
 @app.route('/get_image/<path:filename>')
 def get_image(filename):
     return send_from_directory(DB_FOLDER, filename)
 
 if __name__ == '__main__':
-    app.run(port=8000, debug=True) # debug=False if deployment la gelo tar.
+
+    app.run(port=8000, debug=True) # debug=False if we go for the deployment.
