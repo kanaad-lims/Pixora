@@ -1,0 +1,8 @@
+deepface==0.0.95
+tensorflow==2.20.0
+numpy
+pandas
+json
+cv2
+matplotlib
+flask
