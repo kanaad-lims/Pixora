@@ -1,0 +1,3 @@
+Templates folder contains 2 html files.
+"index.html" is the UI for the initial inferencing.
+"modern.html" is the newer, improved UI version.
